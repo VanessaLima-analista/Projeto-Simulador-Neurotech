@@ -1,18 +1,18 @@
 # Ecossistema Global de Startups: Mapeando o Sucesso
 
-## 📌 Projeto  
+##  Projeto  
 Este repositório contém um estudo sobre o **ecossistema global de startups**, utilizando o dataset público
 [Global Startup Success Dataset (Kaggle)](https://www.kaggle.com/datasets/hamnakaleemds/global-startup-success-dataset).  
 
 O objetivo é responder à questão:  
 **Qual é o perfil de uma startup bem-sucedida?**  
 
-## 🎯 Objetivo da Análise  
+##  Objetivo da Análise  
 - Investigar se o volume de investimento (funding) está relacionado ao sucesso.  
 - Avaliar a influência do **país de origem** e do **setor de atuação**.  
 - Identificar padrões em perfis de startups por meio de clusterização.  
 
-## 🔎 Metodologia  
+##  Metodologia  
 A análise foi realizada em **Python (Colab)** e seguiu quatro etapas principais:  
 
 1. **ETL** – limpeza, padronização e criação da coluna `status` (Operating / Acquired / IPO).  
@@ -20,7 +20,7 @@ A análise foi realizada em **Python (Colab)** e seguiu quatro etapas principais
 3. **Teste de Hipóteses** – comparação do funding entre startups adquiridas e operacionais.  
 4. **Modelagem (Clusterização)** – uso do algoritmo **KMeans** para segmentação em três perfis.  
 
-## 📊 Principais Insights  
+##  Principais Insights  
 
 ### 1. Financiamento não garante sucesso  
 - Correlação entre funding, receita e valuation foi quase nula (-0.014 a 0.009).  
@@ -40,16 +40,16 @@ A análise foi realizada em **Python (Colab)** e seguiu quatro etapas principais
 - **Mais usadas:** Java, Spring, Node.js, React.  
 - **Associadas a maior score de sucesso:** C++, Machine Learning, Node.js, React.  
 
-## ✅ Recomendações  
+##  Recomendações  
 
 - **Para Investidores:** funding isolado não é indicador confiável de sucesso. Avaliar também país, setor e stack tecnológico.  
 - **Para Empreendedores:** foco em modelo de negócio sólido e sustentável. A localização e a escolha do stack tecnológico podem influenciar.  
 
-## 📚 Aprendizados  
+##  Aprendizados  
 - Hipóteses precisam ser validadas com estatística.  
 - O sucesso de startups é **multifatorial**.  
 - Técnicas de ETL, EDA, clusterização e testes estatísticos foram essenciais para identificar padrões.  
 
-## 🔗 Referências  
+##  Referências  
 - Dataset: *Global Startup Success Dataset (Kaggle)*  
 - Bibliotecas: Python, Pandas, Matplotlib, Seaborn, Scikit-learn  
